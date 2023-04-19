@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Tomas",
+    "password": "snail",
+    "balance": 300.9,
+    "purchases": [
+      {
+        "id": 1,
+        "totalPrice": 8.0,
+        "totalAmount": 4,
+        "purchaseItem": {
+          "id": 1,
+          "quantity": 4,
+          "price": 2.0,
+          "product": {
+            "id": 1,
+            "name": "Bread",
+            "price": 2.0,
+            "category": "BAKERY",
+            "numberOfItemsInStock": 200
+          }
+        }
+      },
+      {
+        "id": 2,
+        "totalPrice": 28.0,
+        "totalAmount": 2,
+        "purchaseItem": {
+          "id": 1,
+          "quantity": 2,
+          "price": 14.0,
+          "product": {
+            "id": 1,
+            "name": "Beef",
+            "price": 14.0,
+            "category": "MEAT",
+            "numberOfItemsInStock": 29
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sofia",
+    "password": "snail",
+    "balance": 200.19,
+    "purchases": [
+      {
+        "id": 3,
+        "totalPrice": 8.0,
+        "totalAmount": 4,
+        "purchaseItem": {
+          "id": 1,
+          "quantity": 4,
+          "price": 2.0,
+          "product": {
+            "id": 1,
+            "name": "Apples",
+            "price": 2.0,
+            "category": "FRESH",
+            "numberOfItemsInStock": 399
+          }
+        }
+      },
+      {
+        "id": 4,
+        "totalPrice": 10.0,
+        "totalAmount": 5,
+        "purchaseItem": {
+          "id": 1,
+          "quantity": 5,
+          "price": 2.0,
+          "product": {
+            "id": 1,
+            "name": "Potatoes",
+            "price": 2.0,
+            "category": "FRESH",
+            "numberOfItemsInStock": 3000
+          }
+        }
+      }
+    ]
+  }
+]
